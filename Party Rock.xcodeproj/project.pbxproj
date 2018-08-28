@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BA21B3F121357B0100CAEB63 /* VideoVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21B3F021357B0100CAEB63 /* VideoVC.swift */; };
+		BA21B3F321357B5600CAEB63 /* PartyCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA21B3F221357B5600CAEB63 /* PartyCell.swift */; };
 		BA8C9121212D2056006AEEC7 /* PartyRockM.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA8C9120212D2056006AEEC7 /* PartyRockM.swift */; };
 		BAFBF78B212C2B8200B1C6C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFBF78A212C2B8200B1C6C2 /* AppDelegate.swift */; };
 		BAFBF78D212C2B8200B1C6C2 /* PartyRockVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFBF78C212C2B8200B1C6C2 /* PartyRockVC.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BA21B3F021357B0100CAEB63 /* VideoVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoVC.swift; sourceTree = "<group>"; };
+		BA21B3F221357B5600CAEB63 /* PartyCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyCell.swift; sourceTree = "<group>"; };
 		BA8C9120212D2056006AEEC7 /* PartyRockM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PartyRockM.swift; sourceTree = "<group>"; };
 		BAFBF787212C2B8200B1C6C2 /* Party Rock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Party Rock.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAFBF78A212C2B8200B1C6C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -87,6 +91,7 @@
 		BA8C911E212D1FAD006AEEC7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				BA21B3F221357B5600CAEB63 /* PartyCell.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -95,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				BAFBF78C212C2B8200B1C6C2 /* PartyRockVC.swift */,
+				BA21B3F021357B0100CAEB63 /* VideoVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -286,6 +292,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA21B3F121357B0100CAEB63 /* VideoVC.swift in Sources */,
+				BA21B3F321357B5600CAEB63 /* PartyCell.swift in Sources */,
 				BAFBF78D212C2B8200B1C6C2 /* PartyRockVC.swift in Sources */,
 				BA8C9121212D2056006AEEC7 /* PartyRockM.swift in Sources */,
 				BAFBF78B212C2B8200B1C6C2 /* AppDelegate.swift in Sources */,
